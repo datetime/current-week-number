@@ -49,7 +49,8 @@ $ npm test
 #### date
 
 Type: `string`  
-Default: current date (day)  
+Default: current date (week)  
+
 Every valid Date-ish string
 
 
