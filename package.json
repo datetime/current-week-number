@@ -1,0 +1,42 @@
+{
+  "name": "current-week-number",
+  "version": "0.0.0",
+  "description": "Get current week number of the current year or given date string format.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "repository": "tunnckoCore/current-week-number",
+  "keywords": [
+    "current",
+    "real",
+    "week",
+    "number",
+    "date",
+    "count",
+    "format"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "licenses": [{
+    "type": "MIT",
+    "url": "https://github.com/tunnckoCore/current-week-number/blob/master/license.md"
+  }],
+  "author": {
+    "name": "Charlike Mike Reagent",
+    "email": "mameto_100@mail.bg",
+    "url": "http://www.whistle-bg.tk"
+  },
+  "maintainers": [{
+    "name": "Charlike Mike Reagent",
+    "email": "mameto_100@mail.bg",
+    "url": "http://www.whistle-bg.tk"
+  }],
+  "contributors": [{
+    "name": "Charlike Mike Reagent",
+    "email": "mameto_100@mail.bg",
+    "url": "http://www.whistle-bg.tk"
+  }]
+}
