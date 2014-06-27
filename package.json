@@ -1,10 +1,13 @@
 {
   "name": "current-week-number",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Get current week number of the current year or given date string format.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha -R spec"
+    "test": "mocha -R spec",
+    "jshint": "jshint index.js test.js",
+    "create-repo": "curl -u 'tunnckoCore' https://api.github.com/user/repos -d '{\"name\":\"{{name}}\"}'",
+    "remote-add": "git remote add origin git@github.com:{{repository}}.git"
   },
   "repository": "tunnckoCore/current-week-number",
   "keywords": [
