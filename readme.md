@@ -1,4 +1,4 @@
-# Week number [![NPM version][npmjs-img]][npmjs-url] [![Build Status][travis-img]][travis-url] [![Dependency Status][depstat-img]][depstat-url]
+# Week number [![NPM version][npmjs-img]][npmjs-url] [![Build Status][travis-img]][travis-url] [![Dependency Status][depstat-img]][depstat-url] [![Coveralls][coveralls-shields]][coveralls-url]
 
 > Get current week number of the current year or given date string format.
 
@@ -10,7 +10,7 @@
 $ npm install current-week-number
 ```
 
-# Usage
+## Usage
 ```js
 var currentWeekNumber = require('current-week-number');
 
@@ -31,27 +31,8 @@ currentWeekNumber("02/16/2015")
 //=> 8
 ```
 
-## Tests
-> As usual `npm test` **or** if you have [mocha][mocha-url] globally `mocha`
-
-```
-$ npm test
-```
-
-## API
-
-### currentWeekNumber([date])
-
-#### date
-
-Type: `string`  
-Default: current date (week)  
-
-Every valid Date-ish string
-
-
-## Authors & Contributors [![author tips][author-gittip-img]][author-gittip]
-**Charlike Mike Reagent**
+## Authors & Contributors
+**Charlike Mike Reagent** [![author tips][author-gittip-img]][author-gittip]
 + [gittip/tunnckoCore][author-gittip]
 + [github/tunnckoCore][author-github]
 + [twitter/tunnckoCore][author-twitter]
@@ -63,11 +44,12 @@ Copyright (c) 2014 [Charlike Mike Reagent][author-website], [contributors](https
 Released under the [`MIT`][license-url] license.
 
 
-[mocha-url]: https://github.com/visionmedia/mocha
-
 [npmjs-url]: http://npm.im/current-week-number
-[npmjs-img]: http://img.shields.io/npm/v/current-week-number.svg
-[npmjs-install]: https://nodei.co/npm/current-week-number.png?mini=true
+[npmjs-shields]: http://img.shields.io/npm/v/current-week-number.svg
+[npmjs-install]: https://nodei.co/npm/current-week-number.svg?mini=true
+
+[coveralls-url]: https://coveralls.io/r/tunnckoCore/current-week-number?branch=master
+[coveralls-shields]: https://img.shields.io/coveralls/tunnckoCore/current-week-number.svg
 
 [license-url]: https://github.com/tunnckoCore/current-week-number/blob/master/license.md
 [license-img]: http://img.shields.io/badge/license-MIT-blue.svg

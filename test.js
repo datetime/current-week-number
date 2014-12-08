@@ -1,4 +1,4 @@
-/*!
+/**
  * current-week-number <https://github.com/tunnckoCore/current-week-number>
  *
  * Copyright (c) 2014 Charlike Mike Reagent, contributors.
@@ -7,20 +7,25 @@
 
 'use strict';
 
-var assert = require('assert');
 var currentWeekNumber = require('./');
+var moment = require('moment');
 
-it('should be greater than 26 (june 27, 2014 - released)', function () {
-  assert(currentWeekNumber() >= 26);
-});
-it('should be 13 for "March 24, 2015" and 12 for "03/24/2016"', function () {
-  assert(currentWeekNumber('March 24, 2015') === 13);
-  assert(currentWeekNumber('03/24/2016') === 12);
-});
-it('should be 32 for "August 07, 2015" and 12 for "02/16/2015"', function () {
-  assert(currentWeekNumber('August 07, 2015') === 32);
-  assert(currentWeekNumber('02/16/2015') === 8);
-});
-it('should get current week number, if date string is invalid', function () {
-  assert(currentWeekNumber('') >= 26);
+describe('current-week-number', function() {
+  it('should be greater than 26 (june 27, 2014 - released)', function(done) {
+    currentWeekNumber().should.be.greaterThan(26);
+    done();
+  });
+
+  it('should get valid date format string', function(done) {
+    currentWeekNumber('March 24, 2015').should.equal(13);
+    currentWeekNumber('03/24/2016').should.equal(12);
+    currentWeekNumber('August 07, 2015').should.equal(32);
+    currentWeekNumber('02/16/2015').should.equal(8);
+    done();
+  });
+
+  it('should get week number when empty string format', function(done) {
+    currentWeekNumber('').should.be.greaterThan(26);
+    done();
+  });
 });
