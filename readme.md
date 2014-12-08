@@ -77,7 +77,7 @@ Released under the [`MIT`][license-url] license.
 [license-img]: http://img.shields.io/badge/license-MIT-blue.svg
 
 [travis-url]: https://travis-ci.org/tunnckoCore/current-week-number
-[travis-img]: https://travis-ci.org/tunnckoCore/current-week-number.svg?branch=master
+[travis-img]: https://travis-ci.org/tunnckoCore/current-week-number.svg
 
 [depstat-url]: https://david-dm.org/tunnckoCore/current-week-number
 [depstat-img]: https://david-dm.org/tunnckoCore/current-week-number.svg
