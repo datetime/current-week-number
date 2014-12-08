@@ -8,7 +8,6 @@
 'use strict';
 
 var currentWeekNumber = require('./');
-var moment = require('moment');
 
 describe('current-week-number', function() {
   it('should be greater than 26 (june 27, 2014 - released)', function(done) {
@@ -21,6 +20,7 @@ describe('current-week-number', function() {
     currentWeekNumber('03/24/2016').should.equal(12);
     currentWeekNumber('August 07, 2015').should.equal(32);
     currentWeekNumber('02/16/2015').should.equal(8);
+    currentWeekNumber('12/15/2014').should.equal(51);
     done();
   });
 

@@ -1,3 +1,6 @@
+## v1.0.1 / December 08, 2014
+- remove `moment` as dep
+
 ## v1.0.0 / December 08, 2014
 - add cli support
 - no breaking changes, just init release
