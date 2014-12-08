@@ -8,6 +8,7 @@
 
 ```
 $ npm install current-week-number
+$ week --help
 ```
 
 ## Usage
@@ -30,6 +31,27 @@ currentWeekNumber("August 07, 2015")
 currentWeekNumber("02/16/2015")
 //=> 8
 ```
+
+## CLI
+```bash
+
+  Get current week number of the current year or given date string format.
+
+  Options
+    --help                Show this help
+    --version             Current version of package
+    -f | --format         Valid date format string
+
+  Usage
+    week [date format]
+
+  Examples
+    week
+    week "March 24, 2015"
+    week "03/24/2016"
+
+```
+
 
 ## Authors & Contributors
 **Charlike Mike Reagent** [![author tips][author-gittip-img]][author-gittip]

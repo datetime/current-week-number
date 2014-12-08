@@ -16,7 +16,7 @@ describe('current-week-number', function() {
     done();
   });
 
-  it('should get valid date format string', function(done) {
+  it('should receive valid date format string', function(done) {
     currentWeekNumber('March 24, 2015').should.equal(13);
     currentWeekNumber('03/24/2016').should.equal(12);
     currentWeekNumber('August 07, 2015').should.equal(32);

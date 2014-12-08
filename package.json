@@ -41,11 +41,12 @@
     "type": "MIT",
     "url": "https://github.com/tunnckoCore/current-week-number/blob/master/license.md"
   },
-  "dependencies": {},
+  "dependencies": {
+    "meow": "^2.0.0"
+  },
   "devDependencies": {
     "should": "^4.3.0",
     "moment": "^2.8.4",
-
     "coveralls": "^2.11.2",
     "istanbul-harmony": "^0.3.1",
     "jscs": ">=1.8.0",
@@ -57,5 +58,8 @@
   "engines": {
     "node": ">= 0.10.33",
     "npm": ">= 1.4.28"
+  },
+  "bin": {
+    "week": "cli.js"
   }
 }
