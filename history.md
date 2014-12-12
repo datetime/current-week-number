@@ -1,3 +1,7 @@
+## v1.0.4 / December 12, 2014
+- fixes, tweaks, dotfiles, docs, etc
+- nothing special
+
 ## v1.0.3 / December 12, 2014
 - fix links to [datetime org][datetime-url]
 
