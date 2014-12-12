@@ -1,4 +1,4 @@
-Copyright (c) 2014 [Charlike Make Reagent][author-website], [contributors](https://github.com/tunnckoCore/current-week-number/graphs/contributors).  
+Copyright (c) 2014 [Charlike Make Reagent][author-website], [contributors](https://github.com/datetime/current-week-number/graphs/contributors).  
 
 Permission is hereby granted, free of charge, to any person
 obtaining a copy of this software and associated documentation
@@ -26,17 +26,17 @@ OTHER DEALINGS IN THE SOFTWARE.
 [npmjs-shields]: http://img.shields.io/npm/v/current-week-number.svg
 [npmjs-install]: https://nodei.co/npm/current-week-number.svg?mini=true
 
-[coveralls-url]: https://coveralls.io/r/tunnckoCore/current-week-number?branch=master
-[coveralls-shields]: https://img.shields.io/coveralls/tunnckoCore/current-week-number.svg
+[coveralls-url]: https://coveralls.io/r/datetime/current-week-number?branch=master
+[coveralls-shields]: https://img.shields.io/coveralls/datetime/current-week-number.svg
 
-[license-url]: https://github.com/tunnckoCore/current-week-number/blob/master/license.md
+[license-url]: https://github.com/datetime/current-week-number/blob/master/license.md
 [license-img]: http://img.shields.io/badge/license-MIT-blue.svg
 
-[travis-url]: https://travis-ci.org/tunnckoCore/current-week-number
-[travis-img]: https://travis-ci.org/tunnckoCore/current-week-number.svg?branch=master
+[travis-url]: https://travis-ci.org/datetime/current-week-number
+[travis-img]: https://travis-ci.org/datetime/current-week-number.svg?branch=master
 
-[depstat-url]: https://david-dm.org/tunnckoCore/current-week-number
-[depstat-img]: https://david-dm.org/tunnckoCore/current-week-number.svg
+[depstat-url]: https://david-dm.org/datetime/current-week-number
+[depstat-img]: https://david-dm.org/datetime/current-week-number.svg
 
 [author-gittip-img]: http://img.shields.io/gittip/tunnckoCore.svg
 [author-gittip]: https://www.gittip.com/tunnckoCore
