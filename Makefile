@@ -17,13 +17,13 @@ lint:
 	${JSCS} . --reporter inline
 
 test: lint
-	${MOCHA} --require should
+	${MOCHA}
 
 test-cov: lint
-	${ISTANBUL} cover ${_MOCHA} -- --require should
+	${ISTANBUL} cover ${_MOCHA}
 
 test-travis: lint
-	${ISTANBUL} cover ${_MOCHA} --report lcovonly -- --require should
+	${ISTANBUL} cover ${_MOCHA} --report lcovonly
   
 coveralls: test-travis
 	cat ./coverage/lcov.info | ${COVERALLS}

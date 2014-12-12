@@ -1,3 +1,8 @@
+## v1.0.2 / December 12, 2014
+- moved to [datetime org](https://github.com/datetime)
+- remove should from deps, use `assert`
+- update tests
+
 ## v1.0.1 / December 08, 2014
 - remove `moment` as dep
 
