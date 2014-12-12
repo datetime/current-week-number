@@ -1,12 +1,11 @@
 {
   "name": "current-week-number",
-  "description": "Get current week number of the current year or given date string format.",
+  "description": "Get week number of the current date/year or given valid `Date` string format",
   "version": "1.0.3",
   "scripts": {
-    "lint": "npm install && node_modules/.bin/jshint . && node_modules/.bin/jscs . --reporter inline",
-    "test": "npm run lint && node_modules/.bin/mocha",
-    "test-cov": "npm run lint && node_modules/.bin/istanbul cover node_modules/.bin/_mocha",
-    "test-travis": "npm run lint && node_modules/.bin/istanbul cover node_modules/.bin/_mocha --report lcovonly",
+    "test": "npm install && node_modules/.bin/mocha",
+    "test-cov": "npm install && node_modules/.bin/istanbul cover node_modules/.bin/_mocha",
+    "test-travis": "npm install && node_modules/.bin/istanbul cover node_modules/.bin/_mocha --report lcovonly",
     "coveralls": "npm run test-travis && cat coverage/lcov.info | node_modules/.bin/coveralls"
   },
   "author": {
@@ -27,10 +26,12 @@
     "month",
     "months",
     "util",
+    "utils",
     "utility",
     "week",
     "weekday",
     "weeks",
+    "datetime",
     "year"
   ],
   "repository": {
@@ -47,9 +48,6 @@
   "devDependencies": {
     "coveralls": "^2.11.2",
     "istanbul": "^0.3.5",
-    "jscs": ">=1.8.0",
-    "jscs-jsdoc": ">=0.2.0",
-    "jshint": "^2.5.10",
     "mocha": "^2.0.1",
     "mocha-lcov-reporter": "0.0.1"
   },

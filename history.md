@@ -1,8 +1,8 @@
 ## v1.0.3 / December 12, 2014
-- fix links to `datetime` org
+- fix links to [datetime org][datetime-url]
 
 ## v1.0.2 / December 12, 2014
-- moved to [datetime org](https://github.com/datetime)
+- moved to [datetime org][datetime-url]
 - remove should from deps, use `assert`
 - update tests
 
@@ -20,3 +20,6 @@
 
 ## v0.1.0 / June 26, 2014
 - initial commits
+
+
+[datetime-url]: https://github.com/datetime

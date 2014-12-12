@@ -1,5 +1,5 @@
 /**
- * current-week-number <https://github.com/tunnckoCore/current-week-number>
+ * current-week-number <https://github.com/datetime/current-week-number>
  *
  * Copyright (c) 2014 Charlike Mike Reagent, contributors.
  * Released under the MIT license.
@@ -7,6 +7,12 @@
 
 'use strict';
 
+/**
+ * Get week number of the current date/year or given valid `Date` string format
+ *
+ * @param  {String} `[date]` every valid Date-ish string format
+ * @return {Number}
+ */
 module.exports = function currentWeekNumber(date) {
   var instance;
   if (date && typeof date === 'string' && date !== '') {

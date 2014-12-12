@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * current-week-number <https://github.com/tunnckoCore/current-week-number>
+ * current-week-number <https://github.com/datetime/current-week-number>
  *
  * Copyright (c) 2014 Charlike Mike Reagent, contributors.
  * Released under the MIT license.
@@ -13,7 +13,7 @@
  */
 
 var meow = require('meow');
-var week = require('./');
+var week = require('./index');
 
 var cli = meow({
   help: [
