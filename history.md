@@ -1,5 +1,9 @@
 
 
+## v1.0.5 / January 26, 2015
+- Release v1.0.5 / npm@v1.0.5
+- refactor, update tests, coverage
+
 ## v1.0.4 / December 12, 2014
 - Release v1.0.4 / npm@v1.0.4
 - fixes, tweaks, dotfiles, docs, etc
