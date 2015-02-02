@@ -38,11 +38,18 @@
  * @api public
  */
 module.exports = function currentWeekNumber(date) {
-  var instance = new Date();
+  var instance;
 
   if (typeof date === 'string' && date.length) {
     instance = new Date(date);
   }
+  else if (date instanceof Date) {
+    instance = date;
+  }
+  else {
+    instance = new Date();
+  }
+
 
   // Create a copy of this date object
   var target = new Date(instance.valueOf());
