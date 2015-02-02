@@ -23,6 +23,10 @@ describe('current-week-number:', function() {
     assert.strictEqual(currentWeekNumber('12/15/2014'), 51);
     done();
   });
+  it('should receive date object', function(done) {
+    assert.strictEqual(currentWeekNumber(new Date('March 24, 2015')), 13);
+    done();
+  });
   it('should get current week number when empty string format', function(done) {
     assert.strictEqual(typeof currentWeekNumber(''), 'number');
     done();
