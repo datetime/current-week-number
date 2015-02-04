@@ -1,5 +1,16 @@
 
 
+## v1.0.6 / February 4, 2015
+- Release v1.0.6 / npm@v1.0.6
+- update description
+- update docs
+- update tests
+- run lint
+- remove `mocha-lcov-reporter`
+- merge pull request #2 from wankdanker/master 
+- remove cli.js reference in package.json
+- already accepts and Date object
+
 ## v1.0.5 / January 26, 2015
 - Release v1.0.5 / npm@v1.0.5
 - refactor, update tests, coverage
