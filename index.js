@@ -16,19 +16,25 @@
  * var currentWeekNumber = require('current-week-number');
  *
  * // june 27, 2014
- * currentWeekNumber()
+ * currentWeekNumber();
  * //=> 26
  *
- * currentWeekNumber('March 24, 2015')
+ * currentWeekNumber('March 24, 2015');
  * //=> 13
  *
- * currentWeekNumber('03/24/2016')
+ * currentWeekNumber(new Date('March 24, 2015'));
+ * //=> 13
+ *
+ * currentWeekNumber('03/24/2016');
  * //=> 12, cuz' year is leap
  *
- * currentWeekNumber('August 07, 2015')
+ * currentWeekNumber('August 07, 2015');
  * //=> 32
  *
- * currentWeekNumber('02/16/2015')
+ * currentWeekNumber(new Date('August 07, 2016'));
+ * //=> 31
+ *
+ * currentWeekNumber('02/16/2015');
  * //=> 8
  * ```
  *
