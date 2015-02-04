@@ -42,14 +42,11 @@ module.exports = function currentWeekNumber(date) {
 
   if (typeof date === 'string' && date.length) {
     instance = new Date(date);
-  }
-  else if (date instanceof Date) {
+  } else if (date instanceof Date) {
     instance = date;
-  }
-  else {
+  } else {
     instance = new Date();
   }
-
 
   // Create a copy of this date object
   var target = new Date(instance.valueOf());
