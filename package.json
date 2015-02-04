@@ -1,7 +1,7 @@
 {
   "name": "current-week-number",
   "version": "1.0.5",
-  "description": "Get current week number of the current year or given date string format.",
+  "description": "Get current week number of the current year,given Date format string or Date object.",
   "scripts": {
     "lint": "jshint index.js && jscs index.js --reporter inline",
     "test": "mocha",
