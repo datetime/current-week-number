@@ -47,11 +47,10 @@
     "url": "https://github.com/datetime/current-week-number/blob/master/license.md"
   },
   "dependencies": {
-    "meow": "^3.0.0"
+    "meow": "~3.0.0"
   },
   "devDependencies": {
-    "istanbul-harmony": "^0.3.1",
-    "mocha": "*",
-    "mocha-lcov-reporter": "^0.0.1"
+    "istanbul-harmony": "~0.3.1",
+    "mocha": "~2.1.0"
   }
 }
