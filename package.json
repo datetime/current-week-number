@@ -9,7 +9,7 @@
     "test-travis": "istanbul cover _mocha --report lcovonly"
   },
   "author": {
-    "name": "Charlike Make Reagent",
+    "name": "Charlike Mike Reagent",
     "email": "mameto_100@mail.bg",
     "url": "https://github.com/tunnckoCore"
   },
@@ -46,11 +46,12 @@
     "type": "MIT",
     "url": "https://github.com/datetime/current-week-number/blob/master/license.md"
   },
-  "dependencies": {
-    "meow": "~3.0.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "istanbul-harmony": "~0.3.1",
     "mocha": "~2.1.0"
+  },
+  "bin": {
+    "current-week-number": "cli.js"
   }
 }
