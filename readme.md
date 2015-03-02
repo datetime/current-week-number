@@ -44,6 +44,12 @@ currentWeekNumber(new Date('August 07, 2016'));
 
 currentWeekNumber('02/16/2015');
 //=> 8
+
+currentWeekNumber('September 15, 2126');
+//=> 37
+
+currentWeekNumber('02/17/2012');
+//=> 7
 ```
 
 
@@ -86,4 +92,4 @@ Released under the [`MIT`][license-url] license.
 
 ***
 
-_Powered and automated by [kdf](https://github.com/tunnckoCore), February 4, 2015_
+_Powered and automated by [kdf](https://github.com/tunnckoCore), March 02, 2015_
