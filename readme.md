@@ -85,7 +85,7 @@ Released under the [`MIT`][license-url] license.
 [travis-img]: https://img.shields.io/travis/datetime/current-week-number.svg?style=flat
 
 [daviddm-url]: https://david-dm.org/datetime/current-week-number
-[daviddm-img]: https://img.shields.io/david/datetime/current-week-number.svg?style=flat
+[daviddm-img]: https://img.shields.io/david/dev/datetime/current-week-number.svg?style=flat
 
 [author-gratipay]: https://gratipay.com/tunnckoCore
 [author-twitter]: https://twitter.com/tunnckoCore
