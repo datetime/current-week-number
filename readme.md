@@ -6,6 +6,7 @@
 ```
 npm i --save current-week-number
 npm test
+current-week-number --help
 ```
 
 
@@ -51,6 +52,10 @@ currentWeekNumber('September 15, 2126');
 currentWeekNumber('02/17/2012');
 //=> 7
 ```
+
+
+## CLI
+> You can just run `current-week-number --help` for more information
 
 
 ## Author
