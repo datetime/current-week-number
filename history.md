@@ -1,5 +1,13 @@
 
 
+## v1.0.7 / March 02, 2015
+- Release v1.0.7 / npm@v1.0.7
+- update david-dm badge
+- add cli usage
+- fix travis, iojs support
+- add more examples
+- add cli, ref #1
+
 ## v1.0.6 / February 4, 2015
 - Release v1.0.6 / npm@v1.0.6
 - update description
